@@ -1,0 +1,6 @@
+monivulation_homepage:
+    path:     /
+    defaults: { _controller: MonivulationBundle:Default:index }
+onivulation_homepage:
+    path:     /addPurchase
+    defaults: { _controller: MonivulationBundle:Default:addPurchase }
