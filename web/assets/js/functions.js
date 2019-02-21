@@ -111,10 +111,10 @@ jQuery(function($) {'use strict',
   jQuery(window).scroll(function() {
   
 	 if (jQuery(window).scrollTop() >= 25) {
-		jQuery(".logo > img").attr("src", "images/logo.png");
+		jQuery(".logo > img").attr("src", "assets/images/logo.png");
 	 }
 	  else {
-		jQuery(".logo > img").attr("src", "images/logo-white.png");
+		jQuery(".logo > img").attr("src", "assets/images/logo.png");
 	 }
   
   });

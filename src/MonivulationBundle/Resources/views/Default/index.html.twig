@@ -18,11 +18,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/one-color.css') }}">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/loader.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/Style.css') }}">
 
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}">
-
-    {#<link rel="stylesheet" type="text/css" href="{{ asset('assets/fa/css/fontawesome.min.css') }}">#}
-
 
 </head>
 
@@ -35,9 +33,6 @@
 
     </div>
 </div>
-
-
-
 
 <!-- Main-Navigation -->
 <header id="main-navigation">
@@ -73,19 +68,11 @@
                                     <a class="page-scroll" href="#about">About</a>
                                 </li>
                                 <li>
-                                    <a class="page-scroll" href="#thinkers">Team</a>
-                                </li>
-                                <li>
-                                    <a href="#project" class="page-scroll">Work</a>
-                                </li>
-                                <li>
                                     <a href="#pricing" class="page-scroll">Prices</a>
                                 </li>
-
                                 <li>
-                                    <a href="#publication" class="page-scroll">Blog</a>
+                                    <a class="page-scroll" href="#thinkers">Team</a>
                                 </li>
-
                                 <li>
                                     <a href="#contact" class="page-scroll">Contact Us</a>
                                 </li>
@@ -108,17 +95,6 @@
                     <!-- MAIN IMAGE -->
                     <img  src="{{ asset('assets/images/parallax-1.jpg') }}" alt="slidebg1" data-bgfit="cover" data-bgposition="center center">
 
-                    <!-- LAYER NR. 1 -->
-                    <p class="tp-caption sft tp-resizeme"
-                       data-x="center"
-                       data-y="200"
-                       data-speed="500"
-                       data-start="1000"
-                       data-easing="Power3.easeInOut"
-                       data-elementdelay="0.1"
-                       data-endelementdelay="0.1"
-                       style="z-index: 5;">Quickly setup your website
-                    </p>
                     <!-- LAYER NR. 2 -->
                     <h2 class="tp-caption sft tp-resizeme text-center"
                         data-x="center"
@@ -128,11 +104,12 @@
                         data-easing="Power3.easeInOut"
                         data-elementdelay="0.05"
                         data-endelementdelay="0.1"
-                        style="z-index: 9;">
-                        BizOne is designed specially<br>for business startups
+                        style="z-index: 9; color: #1b1d1f">
+                        Welcome to Monivulation
+
                     </h2>
                     <!-- LAYER NR. 3 -->
-                    <p class="tp-caption sft tp-resizeme"
+                    <p class="tp-caption sft tp-resizeme text-left"
                        data-x="center"
                        data-y="370"
                        data-speed="500"
@@ -140,9 +117,8 @@
                        data-easing="Power3.easeInOut"
                        data-elementdelay="0.1"
                        data-endelementdelay="0.1"
-                       style="z-index: 5;">It has all unique &amp; new digital experience layouts.
+                       style="z-index: 5; color: #1b1d1f"><b>Women's best companion.</b>
                     </p>
-
 
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption sft tp-resizeme"
@@ -155,13 +131,54 @@
                          data-endelementdelay="0.1"
                          data-linktoslide="next"
                          style="z-index: 12;">
-                        <a href="#responsive"><img src="{{ asset('assets/images/playstore.png') }}" width="10%" height="10%"></a>
-                        <a href="#."><img src="{{ asset('assets/images/appstore.png') }}"  width="10%" height="5%"></a>
+                        <a href="#responsive"><img src="{{ asset('assets/images/playstore_big.png') }}"></a>
+                        <a href="#."><img src="{{ asset('assets/images/appstore_big.png') }}"></a>
                     </div>
-
                 </li>
                 <!-- SLIDE  -->
-                <li data-transition="slideleft" data-slotamount="7" data-delay="7000">
+                <li data-transition="fade" data-slotamount="6" data-delay="5000">
+                    <!-- MAIN IMAGE -->
+                    <img  src="{{ asset('assets/images/parallax-4.jpg') }}" alt="slidebg1" data-bgposition="center top" >
+
+                    <!-- LAYER NR. 2 -->
+                    <h2 class="tp-caption fade tp-resizeme text-left"
+                        data-x="left"
+                        data-y="160"
+                        data-speed="500"
+                        data-start="1500"
+                        data-easing="Power3.easeInOut"
+                        data-elementdelay="0.05"
+                        data-endelementdelay="0.1"
+                        style="z-index: 9; color: #1b1d1f">We offer the Best <br>Fertility Tracking Solution
+                    </h2>
+                    <!-- LAYER NR. 3 -->
+                    <p class="tp-caption sft tp-resizeme"
+                       data-x="left"
+                       data-y="310"
+                       data-speed="500"
+                       data-start="2000"
+                       data-easing="Power3.easeInOut"
+                       data-elementdelay="0.1"
+                       data-endelementdelay="0.1"
+                       style="z-index: 5; color: #1b1d1f">Maximize your Fertility with our tools
+                    </p>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption sft tp-resizeme"
+                         data-x="left"
+                         data-y="420"
+                         data-speed="500"
+                         data-start="2800"
+                         data-easing="Power3.easeInOut"
+                         data-elementdelay="0.1"
+                         data-endelementdelay="0.1"
+                         data-linktoslide="next"
+                         style="z-index: 12;">
+                        <a href="#responsive" class="btn-common btn-green bounce-white page-scroll">Read More</a>
+                        <a href="#pricing" class="btn-common btn-blue bounce-white">Buy Monivulation</a>
+                    </div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="fade" data-slotamount="7" data-delay="7000">
                     <!-- MAIN IMAGE -->
                     <img src="{{ asset('assets/images/parallax-2.jpg') }}"  alt="laptopmockup_sliderdy" data-bgfit="cover" data-bgposition="center center">
 
@@ -173,7 +190,7 @@
                        data-easing="Power3.easeInOut"
                        data-elementdelay="0.1"
                        data-endelementdelay="0.1"
-                       style="z-index: 5;">Quickly setup your website
+                       style="z-index: 5; color: #1b1d1f">Our system is totally automatic.
                     </p>
                     <!-- LAYER NR. 2 -->
                     <h2 class="tp-caption fade tp-resizeme text-right"
@@ -184,8 +201,8 @@
                         data-easing="Power3.easeInOut"
                         data-elementdelay="0.05"
                         data-endelementdelay="0.1"
-                        style="z-index: 9;">
-                        BizOne is designed specially<br>for Startups
+                        style="z-index: 9; color: #1b1d1f">
+                        Monivulation is designed specially<br>for your comfort
                     </h2>
                     <!-- LAYER NR. 3 -->
                     <p class="tp-caption sft tp-resizeme"
@@ -196,7 +213,7 @@
                        data-easing="Power3.easeInOut"
                        data-elementdelay="0.1"
                        data-endelementdelay="0.1"
-                       style="z-index: 5;">It has all unique &amp; new digital experience layouts.
+                       style="z-index: 5; color: #1b1d1f">We do all the work for you.
                     </p>
                     <div class="tp-caption fade tp-resizeme"
                          data-x="right"
@@ -209,7 +226,7 @@
                          data-linktoslide="next"
                          style="z-index: 12;">
                         <a href="#responsive" class="btn-common btn-blue bounce-white page-scroll">Read More</a>
-                        <a href="#." class="btn-common btn-green bounce-white">Buy BizOne</a>
+                        <a href="#pricing" class="btn-common btn-green bounce-white">Buy Monivulation</a>
                     </div>
 
                 </li>
@@ -227,7 +244,7 @@
                        data-easing="Power3.easeInOut"
                        data-elementdelay="0.1"
                        data-endelementdelay="0.1"
-                       style="z-index: 5;">Quickly setup your website
+                       style="z-index: 5; color: #1b1d1f">Track your cycle like never before.
                     </p>
                     <!-- LAYER NR. 2 -->
                     <h2 class="tp-caption fade tp-resizeme text-left"
@@ -238,7 +255,7 @@
                         data-easing="Power3.easeInOut"
                         data-elementdelay="0.05"
                         data-endelementdelay="0.1"
-                        style="z-index: 9;">Style up Your<br>Business Strategy
+                        style="z-index: 9; color: #1b1d1f">We offer a<br>Unique Experience
                     </h2>
                     <!-- LAYER NR. 3 -->
                     <p class="tp-caption sft tp-resizeme"
@@ -249,7 +266,7 @@
                        data-easing="Power3.easeInOut"
                        data-elementdelay="0.1"
                        data-endelementdelay="0.1"
-                       style="z-index: 5;">It has all unique &amp; new digital experience layouts.
+                       style="z-index: 5; color: #1b1d1f">you don't have to worry about your menstrual cycle anymore.
                     </p>
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption sft tp-resizeme"
@@ -263,7 +280,7 @@
                          data-linktoslide="next"
                          style="z-index: 12;">
                         <a href="#responsive" class="btn-common btn-green bounce-white page-scroll">Read More</a>
-                        <a href="#." class="btn-common btn-blue bounce-white">Buy BizOne</a>
+                        <a href="#pricing" class="btn-common btn-blue bounce-white">Buy Monivulation</a>
                     </div>
                 </li>
             </ul>
@@ -271,16 +288,11 @@
     </div>
 </section>
 
-
-
-
-
 <!--What We Offer-->
 <section class="section-padding" id="about">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center wow fadeIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                <p class="title">Our Valued Services</p>
                 <h2 class="heading">Our products</h2>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -291,34 +303,16 @@
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="500ms">
                 <span class="text-center"><i class="icon-connection color1"></i></span>
                 <h4 class="color1">Connected bracelet</h4>
-                <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really great.</p>
+                <p>we provide a smart bracelet which will transfer automatically temperature and pulse data to our server.</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="700ms">
-                <span class="text-center"><i class="icon-accessibility color6"></i></span>
+                <span class="text-center"><i class="icon-barometer color6"></i></span>
                 <h4 class="color6">Connected scale</h4>
-                <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really great.</p>
+                <p>we provide a smart scale which will transfer automatically weight data to our server every mesure.</p>
             </div>
-            <!-- <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
-              <span class="text-center"><i class="icon-icons96  color1"></i></span>
-              <h4 class="color1">Responsive Design</h4>
-              <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really great.</p>
-            </div>
-            <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1100ms">
-              <span class="text-center"><i class="icon-globe color6"></i></span>
-              <h4 class="color6">Responsive Design</h4>
-              <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really great.</p>
-            </div>
-            <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
-              <span class="text-center"><i class="icon-icons42 color1"></i></span>
-              <h4 class="color1">Responsive Design</h4>
-              <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really great.</p>
-            </div> -->
         </div>
     </div>
 </section>
-
-
-
 
 <!-- Paralax Effect Section -->
 <div style="position:relative;" class="top-padding">
@@ -326,10 +320,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p>Unleash your creative potential with BizOne</p>
-                    <h2 class="magin30">Looking For Exclusive Digital Services?</h2>
+                    <h2 class="magin30">Looking For A New Way To Track your Fertility?</h2>
 
-                    <a class="btn-green btn-common bounce-top page-scroll" href="#letstalk">Let's Talk</a>
+
                 </div>
             </div>
         </div>
@@ -337,22 +330,19 @@
 
 </div>
 
-
-
-
-
 <!-- Responsive image with left -->
 <section id="responsive" class="top-padding">
     <div class="container-fluid">
         <div class="row responsive-pic">
-            <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="600ms">
-                <center><img src="{{ asset('assets/images/How_it_works.png') }}" alt="fully responsive" class="img-responsive"> </center>
+            <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="600ms" align="center">
+                <img src="{{ asset('assets/images/How_it_works.png') }}" alt="fully responsive" class="img-responsive">
             </div>
             <div class="container wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 r-test">
-                        <h3 class="magin30">Unique experience</h3>
-                        <p>We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry.</p>
+                        <h3 class="magin30">How it works ?</h3>
+                        <p>Our bracelet has a very accurate skin temperature sensor, which we use to capture your temperature everyday. After a sufficient number of measurements, we can tell by analysing the temperature chart when exactly starts your fertile window. We will also alert you in case of danger : unnatural temperature rise, irregular heartbeats...</p>
+                        <p>Monivulation also can track your baby's health with our smart scale, it will alert you if weight exceeds the maximum weight or gets lower than the minimum weight that ensures the baby's health </p>
                         <h4>Features</h4>
                         <ul class="r-feature">
                             <li>Real time tracking</li>
@@ -379,326 +369,35 @@
                 <div class="counters-item green row">
                     <i class="icon-smile"></i>
                     <h2><strong data-to="125">0</strong></h2>
-                    <p>Happy Customer</p>
+                    <p>Happy Customers</p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
                 <div class="counters-item dark_gray row">
-                    <i class="icon-icons42"></i>
+                    <i class="icon-download"></i>
                     <h2><strong data-to="865">0</strong></h2>
-                    <p>Lines of Codes</p>
+                    <p>Downloads</p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
 
                 <div class="counters-item blue row">
-                    <i class="icon-alarmclock"></i>
+                    <i class="icon-package"></i>
                     <h2><strong data-to="510">0</strong></h2>
-                    <p>Project Completed</p>
+                    <p>Packs Sold</p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
                 <div class="counters-item green row">
-                    <i class="icon-icons9"></i>
-                    <h2><strong data-to="1350">0</strong></h2>
-                    <p>Cup of coffees</p>
+                    <i class="icon-heart"></i>
+                    <h2><strong data-to="20">0</strong></h2>
+                    <p>doctor approval</p>
                 </div>
             </div>
             <!-- end first count item -->
         </div>
     </div>
 </section>
-
-
-
-<!-- Skills With Round Pattern -->
-<section id="experties" class="padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p class="title">Some of Our skills</p>
-                <h2 class="heading">our expertise</h2>
-            </div>
-            <div class="col-md-12">
-                <div class="some clearfix text-center">
-                    <div class="myStat2" data-text="86%" data-width="10" data-fontsize="14" data-percent="86" data-fgcolor="#07aaa5" data-bgcolor="#eee" data-bordersize="15">
-                        <p>Web Development</p>
-                    </div>
-                    <div class="myStat2" data-text="90%"  data-width="30" data-fontsize="14" data-percent="90" data-fgcolor="#82b440" data-bgcolor="#eee" data-bordersize="15">
-                        <p>Development</p>
-                    </div>
-                    <div class="myStat2"  data-text="75%"  data-width="30" data-fontsize="14" data-percent="75" data-fgcolor="#07aaa5" data-bgcolor="#eee" data-bordersize="15">
-                        <p>App development</p>
-                    </div>
-                    <div class="myStat2"  data-text="79%"  data-width="30" data-fontsize="14" data-percent="79" data-fgcolor="#82b440" data-bgcolor="#eee" data-bordersize="15">
-                        <p> performence</p>
-                    </div>
-                    <div class="myStat2"  data-text="92%" data-width="30" data-fontsize="14" data-percent="92" data-fgcolor="#07aaa5" data-bgcolor="#eee" data-bordersize="15">
-                        <p> usability</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-<!-- What We Do Section -->
-<section class="we-do bg-grey padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center wow fadeIn">
-                <p class="title">Our Service Keeps you Happy</p>
-                <h2 class="heading">what we do</h2>
-            </div>
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <div class="do-wrap text-center">
-                    <div class="dark_gray top"></div>
-                    <span class="dark_gray"><i class="icon-icons9"></i></span>
-                    <h4>Hot Design</h4>
-                    <p>Keep away from people who try to belittle your ambitions. Small people always do that.</p>
-                    <a href="#." class="readmore">READ MORE</a> </div>
-            </div>
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
-                <div class="do-wrap text-center">
-                    <div class="green top"></div>
-                    <span class="green"><i class="icon-icons96"></i></span>
-                    <h4>Hot Design</h4>
-                    <p>Keep away from people who try to belittle your ambitions. Small people always do that.</p>
-                    <a href="#." class="readmore">READ MORE</a> </div>
-            </div>
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms">
-                <div class="do-wrap text-center">
-                    <div class="dark_gray top"></div>
-                    <span class="dark_gray"> <i class="icon-icons42"></i></span>
-                    <h4>Hot Design</h4>
-                    <p>Keep away from people who try to belittle your ambitions. Small people always do that.</p>
-                    <a href="#." class=" readmore">READ MORE</a> </div>
-            </div>
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="1200ms">
-                <div class="do-wrap text-center">
-                    <div class="green top"></div>
-                    <span class="green"><i class="icon-icons9"></i></span>
-                    <h4>Hot Design</h4>
-                    <p>Keep away from people who try to belittle your ambitions. Small people always do that.</p>
-                    <a href="#." class="readmore">READ MORE</a> </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!-- Crteative Thinker -->
-<section id="thinkers" class="section-padding padding-botom">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-12 wow fadeIn">
-                <p class="title">Passionate about perfection</p>
-                <h2 class="heading">Dev Team</h2>
-            </div>
-            <div class="col-md-3 col-sm-3 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                <div class="thinker-wrap">
-                    <div class="thinker-image">
-                        <img src="{{ asset('assets/images/mohamedKalia.png') }}" alt="Richard" class="img-responsive">
-                        <div class="overlay">
-                            <div class="overlay-inner">
-                                <ul class="social-link">
-                                    <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <h3>Mohamed Kalia</h3>
-                    <small>Backend developer</small>
-                    <p>Keep away from people who try to belittle your ambitions. </p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-3 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                <div class="thinker-wrap">
-                    <div class="thinker-image">
-                        <img src="{{ asset('assets/images/bacemRakkez.jpg') }}" alt="Richard" class="img-responsive">
-                        <div class="overlay">
-                            <div class="overlay-inner">
-                                <ul class="social-link">
-                                    <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <h3>Bacem Rakkez</h3>
-                    <small>Backend developer</small>
-                    <p>Keep away from people who try to belittle your ambitions. </p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-3 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                <div class="thinker-wrap">
-                    <div class="thinker-image">
-                        <img src="{{ asset('assets/images/wafelabidi.jpg') }}" alt="Richard" class="img-responsive">
-                        <div class="overlay green">
-                            <div class="overlay-inner">
-                                <ul class="social-link">
-                                    <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <h3>Wafe labidi</h3>
-                    <small>Frontend developer</small>
-                    <p>Keep away from people who try to belittle your ambitions. Small people always do that.</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-3 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                <div class="thinker-wrap">
-                    <div class="thinker-image">
-                        <img src="{{ asset('assets/images/sofienSahli.jpg') }}" alt="Richard" class="img-responsive">
-                        <div class="overlay">
-                            <div class="overlay-inner">
-                                <ul class="social-link">
-                                    <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <h3>Sofien developer</h3>
-                    <small>Frontent developer</small>
-                    <p>Keep away from people who try to belittle your ambitions. Small people always do that.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!-- Work Project GALLERY -->
-<section id="project" class="wow fadeInUp section-padding" data-wow-duration="500ms" data-wow-delay="900ms">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p class="title">what we do</p>
-                <h2 class="heading">latest projects</h2>
-                <div class="work-filter">
-                    <ul class="text-center">
-                        <li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-                        <li><a href="javascript:;" data-filter=".brand" class="filter">Brand</a></li>
-                        <li><a href="javascript:;" data-filter=".design" class="filter">Design</a></li>
-                        <li><a href="javascript:;" data-filter=".graphic" class="filter">Graphic</a></li>
-                        <li><a href="javascript:;" data-filter=".video" class="filter">Video</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container-fluid project-wrapper">
-        <div class="zerogrid">
-            <div class="wrap-container clearfix">
-                <div class="row wrap-content">
-                    <div class="col-1-2">
-                        <div class="col-full mix work-item video">
-                            <div class="wrap-col">
-                                <div class="item-container">
-                                    <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="{{ asset('assets/images/workimg1.jpg') }}">
-                                        <div class="overlay-inner">
-                                            <h4 class="base">Creative Design</h4>
-                                            <div class="line"></div>
-                                            <p>Print Media</p>
-                                        </div>
-                                    </a>
-                                    <img src="{{ asset('assets/images/workimg1.jpg') }}" alt="work"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2-4 mix work-item brand">
-                            <div class="wrap-col">
-                                <div class="item-container">
-                                    <a class="fancybox-media overlay text-center" href="https://player.vimeo.com/video/145241713">
-                                        <div class="overlay-inner">
-                                            <h4 class="base">Mobile Designs</h4>
-                                            <div class="line"></div>
-                                            <p>Latest Apps</p>
-                                        </div>
-                                    </a>
-                                    <img src="{{ asset('assets/images/workimg4.jpg') }}" alt="work"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2-4 mix work-item">
-                            <div class="wrap-col">
-                                <div class="item-container">
-                                    <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="assets/images/workimg5.jpg">
-                                        <div class="overlay-inner">
-                                            <h4 class="base">Print Designs</h4>
-                                            <div class="line"></div>
-                                            <p>Elements</p>
-                                        </div>
-                                    </a>
-                                    <img src="{{ asset('assets/images/workimg5.jpg') }}" alt="work"/>  </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-1-4 mix work-item graphic">
-                        <div class="wrap-col">
-                            <div class="item-container">
-                                <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="{{ asset('assets/images/workimg2.jpg') }}">
-                                    <div class="overlay-inner">
-                                        <h4 class="base">Modern Workspace</h4>
-                                        <div class="line"></div>
-                                        <p>Workstations</p>
-                                    </div>
-                                </a>
-                                <img src="{{ asset('assets/images/workimg2.jpg') }}" alt="work"/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-1-4 mix work-item design">
-                        <div class="wrap-col">
-                            <div class="item-container">
-                                <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="{{ asset('assets/images/workimg3.jpg') }}">
-                                    <div class="overlay-inner">
-                                        <h4 class="base">Elegant Images</h4>
-                                        <div class="line"></div>
-                                        <p>Laptops</p>
-                                    </div>
-                                </a>
-                                <img src="{{ asset('assets/images/workimg3.jpg') }}" alt="work"/>  </div>
-                        </div>
-                    </div>
-                    <div class="col-1-2 mix work-item graphic">
-                        <div class="wrap-col">
-                            <div class="item-container">
-                                <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="assets/images/workimg6.jpg">
-                                    <div class="overlay-inner">
-                                        <h4 class="base">Photography</h4>
-                                        <div class="line"></div>
-                                        <p>Stock Collection</p>
-                                    </div>
-                                </a>
-                                <img src="{{ asset('assets/images/workimg6.jpg') }}" alt="work"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 
 <section class="section-padding padding" id="pricing">
     <div class="container">
@@ -731,7 +430,7 @@
                             <li class="pricing_feature">temperature and heartbeats monitoring</li>
                             <li class="pricing_feature">Automatic data transfert</li>
                         </ul>
-                        <a class="pricing_action text-center" href="#.">Choose plan</a>
+                        <a class="pricing_action text-center" href="{{ path('purchase_new') }}">Choose plan</a>
                     </div>
                     <div class="pricing_item dark_gray">
                         <h3 class="pricing_title">Gold</h3>
@@ -746,7 +445,7 @@
                             <li class="pricing_feature">Automatic bracelet data transfert</li>
                             <li class="pricing_feature">Automatic scale data transfert</li>
                         </ul>
-                        <a class="pricing_action text-center" href="#.">Choose plan</a>
+                        <a class="pricing_action text-center" href="{{ path('purchase_new') }}">Choose plan</a>
                     </div>
                 </div>
             </div>
@@ -755,28 +454,27 @@
 
 </section>
 
-
 <!-- Testinomials -->
 <div style="position:relative;">
     <section id="testinomial" class="padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p class="title">People Love Our Work</p>
-                    <h2 class="heading">our happy clients</h2>
+                    <p style="color: black" class="title">Doctors Love Our Work</p>
+                    <h2 class="heading">doctor approved !</h2>
                     <div id="testinomial-slider" class="owl-carousel">
                         <div class="item">
-                            <p>We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry. </p>
-                            <h5>ohn smith - upwork, client</h5>
-                            <img src="{{ asset('assets/images/stars.png') }}" alt="star rating"> </div>
+                            <p style="color: black">" Some doctor quote. "</p>
+                            <h5 style="color: black">doctor's name</h5>
+                        </div>
                         <div class="item">
-                            <p>We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry. </p>
-                            <h5>ohn smith - upwork, client</h5>
-                            <img src="{{ asset('assets/images/stars.png') }}" alt="star rating"> </div>
+                            <p style="color: black">" Some doctor quote. "</p>
+                            <h5 style="color: black">doctor's name</h5>
+                        </div>
                         <div class="item">
-                            <p>We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry. </p>
-                            <h5>ohn smith - upwork, client</h5>
-                            <img src="{{ asset('assets/images/stars.png') }}" alt="star rating"> </div>
+                            <p style="color: black">" Some doctor quote. "</p>
+                            <h5 style="color: black">doctor's name</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -785,87 +483,131 @@
 </div>
 
 
-<!-- Latest Publications -->
-<section id="publication" class="section-padding padding">
+
+<!-- What We Do Section -->
+<section class="we-do bg-grey padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <p class="title">Stay always updated</p>
-                <h2 class="heading">Our Publications</h2>
+            <div class="col-md-12 text-center wow fadeIn">
+                <h2 class="heading">Get it Now</h2>
             </div>
+            <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="do-wrap text-center">
+                    <div class="dark_gray top"></div>
+                    <span class="dark_gray"><i class="icon-appleinc"></i></span>
+                    <h4><a href="#"><img src="{{ asset('assets/images/appstore_big.png') }}"></a></h4>
+
+
+                    <a href="#." class="readmore"></a> </div>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+                <div class="do-wrap text-center">
+                    <div class="green top"></div>
+                    <span class="green"><i class="icon-android"></i></span>
+                    <h4><a href="#"><img src="{{ asset('assets/images/playstore_big.png') }}"></a></h4>
+
+                    <a href="#." class="readmore"></a> </div>
+            </div>
+
         </div>
-        <div class="row">
-            <div id="publication-slider" class="owl-carousel">
-                <div class="item">
-                    <div class="image">
-                        <a href="blog_detail.html"><img src="{{ asset('assets/images/publication1.jpg') }}" alt="publication Image"></a>
+    </div>
+</section>
+
+<!-- Crteative Thinker -->
+<section id="thinkers" class="section-padding padding-botom">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12 wow fadeIn">
+                <p class="title">Passionate about perfection</p>
+                <h2 class="heading">Dev Team</h2>
+            </div>
+            <div class="col-md-3 col-sm-3 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="thinker-wrap">
+                    <div class="thinker-image">
+                        <img src="{{ asset('assets/images/mohamedKalia.png') }}" alt="Richard" class="img-responsive">
+                        <div class="overlay">
+                            <div class="overlay-inner">
+                                <ul class="social-link">
+                                    <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
+                                    <li><a href="#." class="text-center"><i class="fa fa-linkedin"></i><span></span></a></li>
+                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <h5>18 November 2015</h5>
-                    <h4>Familiar idea with brand</h4>
-                    <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-                    <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-                    <a href="blog.html">read more</a>
+                    <h3>Mohamed Kalia</h3>
+                    <small>Backend developer</small>
+                    <p>Here goes Some cool quote</p>
                 </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="blog_detail.html"><img src="{{ asset('assets/images/publication2.jpg') }}" alt="publication Image"></a>
+            </div>
+            <div class="col-md-3 col-sm-3 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="thinker-wrap">
+                    <div class="thinker-image">
+                        <img src="{{ asset('assets/images/bacemRakkez.jpg') }}" alt="Richard" class="img-responsive">
+                        <div class="overlay">
+                            <div class="overlay-inner">
+                                <ul class="social-link">
+                                    <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
+                                    <li><a href="#." class="text-center"><i class="fa fa-linkedin"></i><span></span></a></li>
+                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <h5>18 November 2015</h5>
-                    <h4>Familiar idea with brand</h4>
-                    <p>by <a href="blog_detail.html" class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-                    <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-                    <a href="blog.html">read more</a>
+                    <h3>Bacem Rakkez</h3>
+                    <small>Backend developer</small>
+                    <p>Keep away from people who try to belittle your ambitions. </p>
                 </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="blog_detail.html"><img src="{{ asset('assets/images/publication3.jpg') }}" alt="publication Image"></a>
+            </div>
+            <div class="col-md-3 col-sm-3 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                <div class="thinker-wrap">
+                    <div class="thinker-image">
+                        <img src="{{ asset('assets/images/wafelabidi.jpg') }}" alt="Richard" class="img-responsive">
+                        <div class="overlay green">
+                            <div class="overlay-inner">
+                                <ul class="social-link">
+                                    <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
+                                    <li><a href="#." class="text-center"><i class="fa fa-linkedin"></i><span></span></a></li>
+                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <h5>18 November 2015</h5>
-                    <h4>Familiar idea with brand</h4>
-                    <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-                    <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-                    <a href="blog_detail.html">read more</a>
+                    <h3>Wafe labidi</h3>
+                    <small>Frontend developer</small>
+                    <p>Keep away from people who try to belittle your ambitions. Small people always do that.</p>
                 </div>
-                <div class="item">
-                    <div class="image"><a href="blog_detail.html"><img src="{{ asset('assets/images/publication1.jpg') }}" alt="publication Image"></a></div>
-                    <h5>18 November 2015</h5>
-                    <h4>Familiar idea with brand</h4>
-                    <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-                    <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-                    <a href="blog.html">read more</a>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="blog_detail.html"><img src="{{ asset('assets/images/publication2.jpg') }}" alt="publication Image"></a>
+            </div>
+            <div class="col-md-3 col-sm-3 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                <div class="thinker-wrap">
+                    <div class="thinker-image">
+                        <img src="{{ asset('assets/images/sofienSahli.jpg') }}" alt="Richard" class="img-responsive">
+                        <div class="overlay">
+                            <div class="overlay green">
+                                <ul class="social-link">
+                                    <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
+                                    <li><a href="#." class="text-center"><i class="fa fa-linkedin"></i><span></span></a></li>
+                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <h5>18 November 2015</h5>
-                    <h4>Familiar idea with brand</h4>
-                    <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-                    <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-                    <a href="blog.html">read more</a>
-                </div>
-                <div class="item">
-                    <div class="image"><a href="blog_detail.html"><img src="{{ asset('assets/images/publication3.jpg') }}" alt="publication Image"></a></div>
-                    <h5>18 November 2015</h5>
-                    <h4>Familiar idea with brand</h4>
-                    <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-                    <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-                    <a href="blog.html">read more</a>
+                    <h3>Sofien developer</h3>
+                    <small>Frontend developer</small>
+                    <p>Keep away from people who try to belittle your ambitions. Small people always do that.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-
-
 <section id="slogan" class="wow fadeIn" data-wow-duration="500ms" data-wow-delay="300ms">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h5 class="hidden">hiddens</h5>
-                <p class="pull-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
-                <a class="pull-right bounce-top" href="#.">get in touch</a> </div>
+                <h3 class="text-center">Want to get involved ?</h3>
+            </div>
         </div>
     </div>
 </section>
@@ -878,15 +620,12 @@
             <div class="center">
                 <p class="title">Open for you</p>
                 <h2>We're here</h2>
-                <p class="margen">Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-                <p><strong>Postal Adress:</strong> 198 West 21th Street Victoria 8007, Australia</p>
-                <p><strong>Phone:</strong> (654) 332-112-222</p>
-                <p><strong>Email:</strong> <a href="#.">email@website.com</a></p>
+                <p><strong>Postal Adress:</strong> Z.I. Chotrana II B.P. 160، Pôle Technologique El Ghazela، Ariana 2088</p>
+                <p><strong>Email:</strong> <a href="#.">monivulation@gmail.com</a></p>
                 <ul class="social-link">
                     <li><a href="#." class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
                     <li><a href="#." class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
-                    <li><a href="#." class="text-center"><i class="fa fa-dribbble"></i><span></span></a></li>
-                    <li><a href="#." class="text-center"><i class="fa fa-flickr"></i><span></span></a></li>
+                    <li><a href="#." class="text-center"><i class="fa fa-instagram"></i><span></span></a></li>
                 </ul>
             </div>
         </div>
@@ -926,12 +665,10 @@
                 <ul class="breadcrumb">
                     <li><a href="#." class="page-scroll">Home</a></li>
                     <li><a href="#about" class="page-scroll">About</a></li>
-                    <li><a href="#project" class="page-scroll">Portfolio</a></li>
-                    <li><a href="#publication" class="page-scroll">Blog</a></li>
+                    <li><a href="#pricing" class="page-scroll">Prices</a></li>
                     <li><a href="#thinkers" class="page-scroll">Team</a></li>
                     <li><a href="#contact" class="page-scroll">Contact Us</a></li>
                 </ul>
-                <p>Copyright &copy; 2016 BizOne. all rights reserved.</p>
             </div>
         </div>
     </div>
@@ -957,7 +694,6 @@
 <script src="{{ asset('assets/js/jquery.fancybox-media.js') }}"></script>
 <script src="{{ asset('assets/js/jPushMenu.js') }}"></script>
 <script src="{{ asset('assets/js/functions.js') }}"></script>
-
 
 </body>
 </html>

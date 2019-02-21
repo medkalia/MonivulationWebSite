@@ -11,16 +11,4 @@ class DefaultController extends Controller
     {
         return $this->render('MonivulationBundle:Default:index.html.twig');
     }
-
-    public function addPurchaseAction()
-    {
-        $em= $this->getDoctrine();
-        $purchase= new Purchase();
-        if ($form->isSubmitted()){
-            $em->persist($purchase);
-            $em->flush();
-        }
-
-        return $this->render('MonivulationBundle:Default:addPurchase.html.twig',array("form"=>$form->createView()));
-    }
 }
